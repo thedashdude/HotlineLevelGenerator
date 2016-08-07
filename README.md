@@ -1,7 +1,7 @@
 # HotlineLevelGenerator
 HotlineLevelGenerator generates random levels for Hotline Miami 2: Wrong Number.
 main.lua when run writes data to wll.txt, obj.txt and tls.txt.
-To transfer this level to Hotline Miami 2 do the following:
+To transfer this level to Hotline Miami 2
 ---
   1. Create a new level in the HM2 level editor.
   2. Hit 'o' while it is highlighted to open the files for it.
@@ -23,5 +23,6 @@ Info on the file in HotlineLevelGenerator
   * 'HotlineExplainTls.txt' is a more in-depth explanation of the 'level0.tls' file
   * 'HotlineExplainWll.txt' is a more in-depth explanation of the 'level0.Wll' file
   * 'HotlineExplainPlay.txt' is a more in-depth explanation of the 'level0.Play' file
+
 ---
 Feel free to do with this code and information as you wish, but please give credit.
