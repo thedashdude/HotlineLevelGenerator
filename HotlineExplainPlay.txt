@@ -1,0 +1,11 @@
+[play] solids?
+10
+-1
+2345
+63
+740
+4154
+0
+0
+
+[wll] entries followed by an inconsistant 3-digit number

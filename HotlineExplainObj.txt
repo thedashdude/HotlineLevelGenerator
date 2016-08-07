@@ -1,0 +1,69 @@
+[obj] enemys:
+starts
+1583
+63
+740
+4154
+0
+2345
+0
+
+then for each (russian mob) enemy:
+<type>
+	10 for russian mob / enemy
+	25 for door vert
+	26 for door hori
+<x>
+<y>
+<type of weapon>
+	91 = door matches to 25
+	92 = door matches to 26
+	70 = M16, 
+	75 = Silencer
+	68 = double barrel
+	69 = shotgun
+	1500 = kalashnikov
+	67 = bat
+	66 = club
+	73 = knife
+	74 = pipe
+	2596 = fat
+	1766 = dog
+	2081 = phone
+	2077 = smoke
+	2078 = pipe
+<angle>
+	90 = up
+	180 = left
+	270 = down
+	0 = right
+<pattern>
+	877 = static
+	878 = patrol
+	876 = random
+	875 = random melee
+	938 = patrol melee
+	1464 = fat
+	1064 = dog
+	916 = phone
+	2407 = smoke
+	2408 = pipe
+0
+//REMEMBER THE ZERO!
+
+//Doors:
+25
+<x>
+<y>
+91
+0
+0
+0
+
+26
+<x>
+<y>
+92
+0
+0
+0

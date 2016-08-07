@@ -1,0 +1,14 @@
+[tls] the "nobs" on the edge of walls
+<type>
+	10 = wall node
+	2 = flooring
+<tile (y i think)>
+	0 = basic wall
+	0 = initial floor (purpley wood)
+	80 = light wood
+0 --(x i think)
+<x>
+<y>
+<number>
+	-99 for wall nodes
+	1001 for floor
