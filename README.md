@@ -15,14 +15,14 @@ Info on the file in HotlineLevelGenerator
 ---
   * `main.lua` is the lua code the build a random level and write the data to the text files
   * `DashSolids.lua` is a small collision detection file used to avoid overlapping rooms
-  * `wll.txt` is an example output of 'main.lua'
-  * `obj.txt` is an example output of 'main.lua'
-  * `tls.txt` is an example output of 'main.lua'
+  * `wll.txt` is an example output of `main.lua`
+  * `obj.txt` is an example output of `main.lua`
+  * `tls.txt` is an example output of `main.lua`
   * `HotlineExplain.txt` is short explanation of what the files in a level do
-  * `HotlineExplainObj.txt` is a more in-depth explanation of the 'level0.obj' file
-  * `HotlineExplainTls.txt` is a more in-depth explanation of the 'level0.tls' file
-  * `HotlineExplainWll.txt` is a more in-depth explanation of the 'level0.Wll' file
-  * `HotlineExplainPlay.txt` is a more in-depth explanation of the 'level0.Play' file
+  * `HotlineExplainObj.txt` is a more in-depth explanation of the `level0.obj` file
+  * `HotlineExplainTls.txt` is a more in-depth explanation of the `level0.tls` file
+  * `HotlineExplainWll.txt` is a more in-depth explanation of the `level0.Wll` file
+  * `HotlineExplainPlay.txt` is a more in-depth explanation of the `level0.Play` file
 
 ---
 Feel free to do with this code and information as you wish, but please give credit.
