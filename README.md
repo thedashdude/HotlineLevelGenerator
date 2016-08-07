@@ -11,8 +11,8 @@ To transfer this level to Hotline Miami 2
   6. Load the level in HM2, and then save it.
   7. You may now play the randomly generated level.
 
----
 Info on the file in HotlineLevelGenerator
+---
   * 'main.lua' is the lua code the build a random level and write the data to the text files
   * 'DashSolids.lua' is a small collision detection file used to avoid overlapping rooms
   * 'wll.txt' is an example output of 'main.lua'
