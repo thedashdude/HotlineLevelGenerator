@@ -1,24 +1,36 @@
-[obj] enemys:
-starts
-1583
-63
-740
-4154
-0
-2345
-0
+level0.obj handles enemies and doors among other dynamic objects.
 
-then for each (russian mob) enemy:
+Each entry in level0.obj has no seporator, just a consistant number of lines.
+The format of each entry is:
 <type>
-	10 for russian mob / enemy
-	25 for door vert
-	26 for door hori
 <x>
 <y>
-<type of weapon>
-	91 = door matches to 25
-	92 = door matches to 26
-	70 = M16, 
+<weapon/attribute>
+<angle>
+<2nd attribute>
+<other>
+
+what <other> does in unknown but it apears to always be 0
+<2nd attribute> is primarily movement variations for enemies.
+
+Possible values for each line:
+
+<type>
+	10 for russian mob enemy
+	25 for door vertical
+	26 for door horizontal
+	1583 for jackets car
+
+<x>
+	any x in pixels
+
+<y>
+	any y in pixels
+
+<weapon/attribute>
+	91 = door, matches to <type>25
+	92 = door, matches to <type>26
+	70 = M16
 	75 = Silencer
 	68 = double barrel
 	69 = shotgun
@@ -32,12 +44,15 @@ then for each (russian mob) enemy:
 	2081 = phone
 	2077 = smoke
 	2078 = pipe
+	4154 = jackets car
+
 <angle>
 	90 = up
 	180 = left
 	270 = down
 	0 = right
-<pattern>
+
+<2nd attribute>
 	877 = static
 	878 = patrol
 	876 = random
@@ -48,22 +63,30 @@ then for each (russian mob) enemy:
 	916 = phone
 	2407 = smoke
 	2408 = pipe
-0
-//REMEMBER THE ZERO!
+	2345 = jackets car
 
-//Doors:
+<other>
+	just zero as far as I can tell
+
+
+
+Examples:
+A door at (320, 608) is
 25
-<x>
-<y>
+320
+608
 91
 0
 0
 0
 
-26
-<x>
-<y>
-92
+A random moving enemy with a knife at (100, 300) is
+10
+100
+300
+73
+90
+875
 0
-0
-0
+
+

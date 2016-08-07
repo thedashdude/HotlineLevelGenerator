@@ -1,64 +1,16 @@
-[obj] enemys:
-starts
-1583
-63
-740
-4154
-0
-2345
-0
+The files in a HM2 level that matter for generating levels are:
+	level0.wll
+	level0.obj
+	level0.tls
+	level0.play
 
-then for each (russian mob) enemy:
-10
-<x>
-<y>
-<type of weapon>
-	70 = M16, 
-	75 = Silencer
-	68 = double barrel
-	69 = shotgun
-	1500 = kalashnikov
-	67 = bat
-	66 = club
-	73 = knife
-	74 = pipe
-	2596 = fat
-	1766 = dog
-	2081 = phone
-	2077 = smoke
-	2078 = pipe
-<angle>
-	90 = up
-	180 = left
-	270 = down
-	0 = right
-<pattern>
-	877 = static
-	878 = patrol
-	876 = random
-	875 = random melee
-	938 = patrol melee
-	1464 = fat
-	1064 = dog
-	916 = phone
-	2407 = smoke
-	2408 = pipe
-0
+level0.wll contains the data for walls
+level0.obj contains the data for more dynamic objects such as enemies and doors
+level0.tls contains the data for decorative tiles, such as wall corners and flooring
+level0.play contains data from the others, but if left blank the games level editor will write if for you is you save a level, so the code doesn't bother creating this data.
 
-[obj demo:]
-1583
-63
-740
-4154
-0
-2345
-0
-10
-<x>
-<y>
-<wep>
-<dir>
-<pat>
-0
+There are other files explaing how each of those files is formatted.
 
-[]
+The lua program writes the data for the level it has made to files titled wll.txt, obj.txt and tls.txt
+Copy the data in them into the corresponding level0 file and clear the level0.play file to load the level in HM2.
+To open the .wll, .obj, .tls, and .play, Notepad++ is quite effective, as Notepad can't open those file extensions.
