@@ -10,6 +10,7 @@ To transfer this level to Hotline Miami 2 do the following:
   5. Clear level0.play
   6. Load the level in HM2, and then save it.
   7. You may now play the randomly generated level.
+
 ---
 Info on the file in HotlineLevelGenerator
   * 'main.lua' is the lua code the build a random level and write the data to the text files
