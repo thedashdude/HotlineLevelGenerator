@@ -1,11 +1,2 @@
-[play] solids?
-10
--1
-2345
-63
-740
-4154
-0
-0
-
-[wll] entries followed by an inconsistant 3-digit number
+I could not figure out what level0.play was formatted as. It apears to contain the data from the other files in a strict order with other numbers.
+If anyone can provide a detailed description of its contents that would be much apreciated.

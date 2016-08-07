@@ -1,14 +1,48 @@
-[tls] the "nobs" on the edge of walls
+level0.tls handles flooring and the corner nobs on walls.
+
+Each entry has no seperator only a consistant number of lines.
+The format is:
 <type>
-	10 = wall node
-	2 = flooring
-<tile (y i think)>
-	0 = basic wall
-	0 = initial floor (purpley wood)
-	80 = light wood
-0 --(x i think)
+<sprite y>
+<sprite x>
 <x>
 <y>
 <number>
+
+What <number> does is unknown.
+<sprite x> and <sprite y> are the x and y of the sprite on the sprite sheet.
+
+Possible values for each line:
+
+<type>
+	10 = wall node
+	2 = flooring
+
+<sprite y>
+	0 = basic wall nob
+	0 = initial floor (purpley wood)
+
+<sprite x>
+	0 = basic wall nob
+	0 = initial floor (purpley wood)
+
+<x>
+	any x in pixels
+
+<y>
+	any y in pixels
+
+<number>
 	-99 for wall nodes
 	1001 for floor
+
+
+
+Example:
+A purpley woob floor at (320, 608) is
+2
+0
+0
+320
+608
+1001

@@ -1,6 +1,6 @@
 level0.obj handles enemies and doors among other dynamic objects.
 
-Each entry in level0.obj has no seporator, just a consistant number of lines.
+Each entry in level0.obj has no seperator, just a consistant number of lines.
 The format of each entry is:
 <type>
 <x>
@@ -10,7 +10,7 @@ The format of each entry is:
 <2nd attribute>
 <other>
 
-what <other> does in unknown but it apears to always be 0
+What <other> does in unknown but it apears to always be 0
 <2nd attribute> is primarily movement variations for enemies.
 
 Possible values for each line:

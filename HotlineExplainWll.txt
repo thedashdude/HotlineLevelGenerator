@@ -1,31 +1,40 @@
-[wll] walls (solid part? maybe the texture)
-<num>
-	8 = basic vertical
-	7 = basic horizontal
-	682 = glass vertical
-	683 = glass horizontal
+level0.wll handles walls.
+Each entry in level0.wll has no seperator, just a consistant number of lines.
+The format of each entry is:
+<number>
 <x>
-	in pixels
 <y>
-	in pixels
+<number 2>
+<other>
+
+What <other> does is unknown, but it apears to always be 0.
+<number> and <number 2> handle the type of wall, but I dont have all possible values recorded
+
+<num>
+	8 = vertical basic wall 
+	7 = horizontal basic wall
+	682 = vertical glass
+	683 = horizontal glass
+
+<x>
+	x in pixels
+
+<y>
+	y in pixels
+
 <num2>
-	63 = vertical
-	62 = horizontal
-	1143/1996 = glass vertical
-	1925/1997 = glass horizontal
+	63 = vertical basic wall
+	62 = horizontal basic wall
+	1996 = vertical glass
+	1997 = horizontal glass
+
+<other>
+	just 0
+
+Example:
+For a vertical basic wall at (32,128):
+8
+32
+128
+63
 0
-
-
-
-
-// other num1's 
-	31 = brick v
-	32 = brick h
-	33 = yellow v
-	34 = yellow h
-	1271 = green v
-	1272 = green h
-	101 = fence v
-	102 = fence h
-	675 = stone v
-	677 = stone h
