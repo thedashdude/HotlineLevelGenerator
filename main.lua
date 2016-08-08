@@ -705,12 +705,15 @@ for i=1,#tlsTable do
 end
 
 --open all the files and write the data to them. These are not the files used by HM2, but you can copy the data from the txt files to the .wll, .obj and .tls files
-f = io.open('wll.txt','w')
+f = io.open('level0.wll','w')
 f:write(wll)
 f:close()
-f = io.open('obj.txt','w')
+f = io.open('level0.obj','w')
 f:write(obj)
 f:close()
-f = io.open('tls.txt','w')
+f = io.open('level0.tls','w')
 f:write(tls)
+f:close()
+f = io.open('level0.play','w')
+f:write('')
 f:close()
