@@ -297,7 +297,7 @@ function box(x1,y1,x2,y2,direc)
         else
             -- the two enemies placed have 0% chance of being gun carrying enemies
             placeEnemy((xS+xL)/2,(yS+yL)/2,addMeleeRandomEnemy,addMeleePatrolEnemy,addGunRandomEnemy,addGunPatrolEnemy,3,4,0,0)
-            placeEnemy((xS+xL)/2+1,(yS+yL)/2+1,addMeleeRandomEnemy,addMeleePatrolEnemy,addGunRandomEnemy,addGunPatrolEnemy,3,4,0,0)
+            placeEnemy((xS+xL)/2,(yS+yL)/2+1,addMeleeRandomEnemy,addMeleePatrolEnemy,addGunRandomEnemy,addGunPatrolEnemy,3,4,0,0)
         end
     end
 end
