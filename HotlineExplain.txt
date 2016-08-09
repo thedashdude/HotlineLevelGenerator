@@ -9,6 +9,8 @@ level0.obj contains the data for more dynamic objects such as enemies and doors
 level0.tls contains the data for decorative tiles, such as wall corners and flooring
 level0.play contains data from the others, but if left blank the games level editor will write if for you is you save a level, so the code doesn't bother creating this data.
 
+Those files are only for the first floor, for subsequent floors the file name is level1, level2 and so on with the same file extensions.
+
 There are other files explaing how each of those files is formatted.
 
 The lua program writes the data for the level it has made to files titled wll.txt, obj.txt and tls.txt
