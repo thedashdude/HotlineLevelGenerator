@@ -11,7 +11,7 @@ To generate a level for Hotline Miami 2
   6. Load the level in HM2, and then save it.
   7. You may now play the randomly generated level.
 
-Info on the file in HotlineLevelGenerator
+Info on the files in HotlineLevelGenerator
 ---
   * `main.lua` is the lua code the build a random level and write the data to the text files
   * `DashSolids.lua` is a small collision detection file used to avoid overlapping rooms
@@ -25,8 +25,8 @@ Info on the file in HotlineLevelGenerator
   * `HotlineExplain.txt` is short explanation of what the files in a level do
   * `HotlineExplainObj.txt` is a more in-depth explanation of the `level0.obj` file
   * `HotlineExplainTls.txt` is a more in-depth explanation of the `level0.tls` file
-  * `HotlineExplainWll.txt` is a more in-depth explanation of the `level0.Wll` file
-  * `HotlineExplainPlay.txt` is a more in-depth explanation of the `level0.Play` file
+  * `HotlineExplainWll.txt` is a more in-depth explanation of the `level0.wll` file
+  * `HotlineExplainPlay.txt` is a more in-depth explanation of the `level0.play` file
 
 Previously `main.lua` output to `wll.txt`, `obj.txt`, and `tls.txt`. 
 
