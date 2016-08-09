@@ -15,6 +15,14 @@ x32 as mentioned above
 
 the format of the level files are explained in a different file
 
+a basic rundown of how levels are made:
+the building is made as a 30x18 room.
+it is then filled with rooms of various sizes, without overlap.
+1-2 Doors are placed on each room. 
+an algorithm is run to make sure all rooms are reachable, and doors are added if not. 
+2 enemies are placed near the center of each room of random type
+then a random number of enemies are scattered around the building.
+
 ]]
 
 
