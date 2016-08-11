@@ -5,11 +5,10 @@ To generate a level for Hotline Miami 2
 ---
   1. Create a new level in the HM2 level editor. It must be for jacket.
   2. Hit 'o' while it is highlighted to open the files for it.
-  3. Run `main.lua` to create/write `level0.wll`, `level0.tls`, `level0.obj` and `level0.play`.
+  3. Run `main.lua` to create/write `level0.wll`, `level0.tls`, `level0.obj` and `level0.play`. Make sure `DashSolids.lua` is in the same folder as `main.lua`.
   4. Replace the coresponding files in the level the newly made ones. Simply drag them over to the folder and hit replace. 
-  5. Clear `level0.play`
-  6. Load the level in HM2, and then save it.
-  7. You may now play the randomly generated level.
+  5. Load the level in HM2, and then save it.
+  6. You may now play the randomly generated level.
 
 Info on the files in HotlineLevelGenerator
 ---
